@@ -56,7 +56,7 @@ To use the JSX syntax you will need webpack to transform your JavaScript. This i
 
 为了能够使用 JSX 语法，你需要用 Webpack 来转码你的 JavaScript，这是加载器的工作，我们可以使用一个很好用也有很多功能的 [Babel](https://babeljs.io/)。
 
-`npm install babel-loader --save-dev`
+`npm install babel-loader babel-core --save-dev`
 
 Now we have to configure webpack to use this loader.
 
